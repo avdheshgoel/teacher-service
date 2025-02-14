@@ -16,7 +16,7 @@ public class TeacherController {
 
     private final TeacherService teacherService;
 
-    @GetMapping(value = "/teacher")
+    @GetMapping(value = "/teachers")
     public List<Teacher> retrieveTeachers() {
         return teacherService.getAllTeacher();
     }
